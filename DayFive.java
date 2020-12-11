@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
 public class DayFive {
-    static int rowCharNum = 7;
-    static int columnCharNum = 3;
+    final static int rowCharNum = 7;
+    final static int columnCharNum = 3;
 
     /* the first 7 characters represents the row information */
     static int[] getRowNum(String line) {
