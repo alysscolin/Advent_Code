@@ -21,3 +21,6 @@ Day seven related files:
 Day eight related files:
    DayEight.java
    operations.txt
+Day nine related files:
+   DayNine.java
+   preamble.txt
