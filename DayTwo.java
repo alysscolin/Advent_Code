@@ -15,7 +15,7 @@ public class DayTwo {
     static Result parseLine(String line) {
         String [] str = new String[3];
         Result result = new Result();
-        if (line != null || !line.isEmpty())
+        if (line != null && !line.isEmpty())
         {
             str = line.split(" ");
 
