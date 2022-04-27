@@ -6,7 +6,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /* to make thing easier, just directly expose these two data members
-* in official release, it should be done like this.*/
+* in official release, it should not be done like this.*/
 class YesNumberInGroup {
     int yesSum;
     String chars;
