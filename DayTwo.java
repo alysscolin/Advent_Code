@@ -16,11 +16,13 @@ public class DayTwo {
         String [] str = new String[3];
         Result result = new Result();
         if (line != null || !line.isEmpty())
-        str = line.split(" ");
+        {
+            str = line.split(" ");
 
-        result.policy = str[0];
-        result.givenLetter = str[1];
-        result.password = str[2];
+            result.policy = str[0];
+            result.givenLetter = str[1];
+            result.password = str[2];
+        }
 
         return result;
     }
